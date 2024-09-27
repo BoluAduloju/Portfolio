@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import TechStack from "./components/TechStack"
 function App() {
   
 
@@ -12,6 +13,7 @@ function App() {
         <div className="container mx-auto px-8">
           <Navbar />
           <Hero />
+          <TechStack />
 
         </div>
      </div>
