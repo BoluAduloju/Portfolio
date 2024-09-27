@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import TechStack from "./components/TechStack"
+import Experience from "./components/Experience"
+
 function App() {
   
-
   return (
      <div className="overflow-w-hidden text-stone-300 antialiased">
         <div className="fixed inset-0 -z-10">
@@ -14,6 +15,7 @@ function App() {
           <Navbar />
           <Hero />
           <TechStack />
+          <Experience />
 
         </div>
      </div>
