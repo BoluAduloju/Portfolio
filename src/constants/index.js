@@ -45,7 +45,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Marketing partner for digital creators, SMEs and StartUps.",
-    technologies: ["Reactjs", "TailwindCSS", "Framer Motion", "Vercel"],
+    technologies: ["Reactjs", "TailwindCSS", "FramerMotion", "Vercel"],
   },
   {
     title: "Lorenzo",
