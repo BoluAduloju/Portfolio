@@ -1,11 +1,9 @@
+import { i } from "framer-motion/client";
 import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.png";
 
-
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   
@@ -34,7 +32,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "TerraHR",
+    url: "https://terrahr.vercel.app/",
+    image: project4,
+    description:
+      "The all-in-one workspace for everything HR",
+    technologies: ["Reactjs", "TailwindCSS", "Vercel","Framer Motion"],
+
+  },
+  {
     title: "Indigo",
+    url: "https://indigo-landingpage.vercel.app/",
     image: project1,
     description:
       "Manage your business finance on one platform ",
@@ -42,6 +50,7 @@ export const PROJECTS = [
   },
   {
     title: "Vacuum",
+    url: "https://vacuum-landingpage.vercel.app/",
     image: project2,
     description:
       "Marketing partner for digital creators, SMEs and StartUps.",
@@ -49,6 +58,7 @@ export const PROJECTS = [
   },
   {
     title: "Lorenzo",
+    url:"https://lorenzo-landing-page.vercel.app/",
     image: project3,
     description:
       "Interior design company for homes, workplaces and commercials",
@@ -57,5 +67,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  email: "boluaduloju@gmail.com",
+  email: "boluwatifeaduloju2@gmail.com",
 };

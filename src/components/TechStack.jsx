@@ -1,8 +1,12 @@
-import { FaGitAlt, FaVuejs } from "react-icons/fa6"
+
 import { IoLogoJavascript } from "react-icons/io5"
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri"
 import { SiTypescript } from "react-icons/si"
 import { TbBrandNextjs, TbBrandRedux } from "react-icons/tb"
+import { FaFigma } from "react-icons/fa";
+import { TbBrandFramerMotion } from "react-icons/tb";
+
+
 
 
 
@@ -20,8 +24,8 @@ const TechStack = () => {
                 <span className="text-neutral-300 mt-3 text-sm">NextJs</span>
             </div>
             <div className="p-4 text-center">
-                <RiTailwindCssFill className="text-7xl text-cyan-400" />
-                <span className="text-neutral-300 mt-3 text-sm">TailwindCSS</span>
+                <FaFigma className="text-7xl"/>
+                <span className="text-neutral-300 mt-3 text-sm">Figma</span>
             </div>
             <div className="p-4 text-center">
                 <SiTypescript className="text-7xl text-[#3178c6]" />
@@ -31,14 +35,16 @@ const TechStack = () => {
                 <IoLogoJavascript className="text-7xl text-[#efd81d]" />
                 <span className="text-neutral-300 mt-3 text-sm">JavaScript</span>
             </div>
-            <div className="p-4 text-center">
-                <FaVuejs className="text-7xl text-[#42b883]" />
-                <span className="text-neutral-300 mt-3 text-sm">VueJs</span>
+             <div className="p-4 text-center">
+                <TbBrandFramerMotion className="text-7xl"/>
+                <span className="text-neutral-300 mt-3 text-sm">Framer Motion</span>
             </div>
             <div className="p-4 text-center">
-                <FaGitAlt className="text-7xl text-[#f54d27]" />
-                <span className="text-neutral-300 mt-3 text-sm">Git</span>
+                <RiTailwindCssFill className="text-7xl text-cyan-400" />
+                <span className="text-neutral-300 mt-3 text-sm">TailwindCSS</span>
             </div>
+            
+           
         </div>
 
     </section>
